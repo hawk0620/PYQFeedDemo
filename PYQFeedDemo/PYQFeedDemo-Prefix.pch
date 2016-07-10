@@ -1,0 +1,55 @@
+//
+//  PYQFeedDemo-Prefix.pch
+//  PYQFeedDemo
+//
+//  Created by 陈浩 on 16/7/10.
+//  Copyright © 2016年 陈浩. All rights reserved.
+//
+
+#ifndef PYQFeedDemo_Prefix_pch
+#define PYQFeedDemo_Prefix_pch
+
+#import "UIView+frameAdjust.h"
+#import "extobjc.h"
+
+#ifdef DEBUG
+#define debugLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define debugLog(...)
+#define debugMethod()
+#endif
+
+#define RGB(A, B, C)    [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:1.0]
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define UIColorFromRGBA(rgbValue, a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
+
+#define ScreenBounds [UIScreen mainScreen].bounds
+#define ScreenHeight ScreenBounds.size.height
+#define ScreenWidth ScreenBounds.size.width
+
+
+#define FontWithSize1(s) [UIFont fontWithName:@"STHeitiSC-Light" size:s]
+#define FontWithSize(s) [UIFont systemFontOfSize:s]
+#define BoldFontWithSize(s) [UIFont fontWithName:@"STHeitiSC-Medium" size:s]
+
+#define kNicknameFont BoldFontWithSize(15)
+#define kContentTextFont FontWithSize(15)
+
+#define kMaxContentImageSide 300.0
+#define kAvatar 43
+#define kSpec 10
+#define kTextGap 15
+#define kImageGap 2
+#define kTextXOffset kAvatar + 2 * kSpec
+#define kContentTextWidth (ScreenWidth - kAvatar - kSpec * 2 - kTextGap)
+#define kContentImageWidth (ScreenWidth - kAvatar - kSpec * 2 - 30 - kImageGap * 2) / 3.0
+
+typedef void (^VoidResultBlock)();
+
+typedef void(^VideoPerDataBlock)(CGImageRef imageData, NSString *filePath);
+typedef void(^VideoStopDecodeBlock)(NSString *filePath);
+
+
+#endif /* PYQFeedDemo_Prefix_pch */
