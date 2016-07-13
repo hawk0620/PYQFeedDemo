@@ -152,6 +152,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath {
     }
     feedCell.filePath = nil;
     feedCell.linkString = nil;
+    [feedCell removeHeaderLayer];
 }
 
 - (void)didReceiveMemoryWarning {

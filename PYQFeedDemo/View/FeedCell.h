@@ -15,5 +15,6 @@
 @property (nonatomic, strong) NSString *linkString;
 
 - (void)configWithData:(NSDictionary *)data;
+- (void)removeHeaderLayer;
 
 @end

@@ -255,6 +255,10 @@
     [self fillContents:nil];
 }
 
+- (void)removeHeaderLayer {
+    [self.headImgLayer removeFromSuperlayer];
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
