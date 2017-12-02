@@ -42,9 +42,7 @@
 - (CGSize)textBoundSize {
     if (self.text && self.text.length > 0) {
         
-        if (self.truncationText) {
-            self.renderText = [self.text zp_joinWithTruncationText:self.truncationText textRect:(CGRect){0, 0, self.size} maximumNumberOfRows:self.numberOfLines];
-        }
+        self.renderText = [self.text zp_joinWithTruncationText:self.truncationText textRect:(CGRect){0, 0, self.size} maximumNumberOfRows:self.numberOfLines];
         
         CGRect rect = [ZPTextMeasurement textRectWithAttributeString:self.renderText maximumNumberOfRows:self.numberOfLines bounds:(CGRect){0, 0, self.size}];
         return rect.size;

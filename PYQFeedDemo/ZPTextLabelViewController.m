@@ -27,11 +27,10 @@
     NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithString:@"fasfaffdfadsfdsafasfaffdfadsfdsafasfaffdfadsfdsafasfaffdfadsfdsa" attributes:@{NSFontAttributeName: [UIFont systemFontOfSize:20], NSForegroundColorAttributeName: [UIColor greenColor], NSParagraphStyleAttributeName: paragraphStyle}];
     [text addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:9] range:NSMakeRange(0, 2)];
     
-    UILabel *label = [[UILabel alloc] initWithFrame:(CGRect){0, 0, 80, 80}];
+    ZPAttributedLabel *label = [[ZPAttributedLabel alloc] initWithFrame:(CGRect){0, 0, 80, 80}];
     label.attributedText = text;
     label.backgroundColor = [UIColor orangeColor];
     label.font = [UIFont systemFontOfSize:18];
-    label.lineBreakMode = NSLineBreakByTruncatingTail;
     label.center = self.view.center;
     
     label.numberOfLines = 3;
