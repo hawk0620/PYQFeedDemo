@@ -40,4 +40,12 @@
     self.frame = CGRectMake(self.x, self.y, width, self.height);
 }
 
+- (CGSize)size {
+    return self.frame.size;
+}
+- (void)setSize:(CGSize)size {
+    self.frame = CGRectMake(self.x, self.y, size.width, size.height);
+}
+
 @end
+

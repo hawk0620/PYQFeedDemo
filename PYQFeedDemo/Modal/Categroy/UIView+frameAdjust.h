@@ -22,4 +22,8 @@
 - (CGFloat)width;
 - (void)setWidth:(CGFloat)width;
 
+- (CGSize)size;
+- (void)setSize:(CGSize)size;
+
 @end
+

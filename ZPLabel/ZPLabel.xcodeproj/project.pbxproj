@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		871263191F5BC3900054ED59 /* ZPLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 871263181F5BC3900054ED59 /* ZPLabel.m */; };
+		8712631A1F5BC3900054ED59 /* ZPLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 871263171F5BC3900054ED59 /* ZPLabel.h */; };
+		871263351F5BC58E0054ED59 /* ZPLabelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 871263301F5BC58E0054ED59 /* ZPLabelLayer.m */; };
+		871263361F5BC58E0054ED59 /* ZPTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 871263321F5BC58E0054ED59 /* ZPTextLayout.m */; };
+		871263371F5BC58E0054ED59 /* ZPTextMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 871263341F5BC58E0054ED59 /* ZPTextMeasurement.m */; };
+		8712633A1F5BC59B0054ED59 /* ZPTextDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 871263391F5BC59B0054ED59 /* ZPTextDrawer.m */; };
+		8712633D1F5BC5A50054ED59 /* NSMutableAttributedString+ZPAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8712633C1F5BC5A50054ED59 /* NSMutableAttributedString+ZPAttributedString.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		871263121F5BC3900054ED59 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				8712631A1F5BC3900054ED59 /* ZPLabel.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		871263141F5BC3900054ED59 /* libZPLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZPLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		871263171F5BC3900054ED59 /* ZPLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPLabel.h; sourceTree = "<group>"; };
+		871263181F5BC3900054ED59 /* ZPLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPLabel.m; sourceTree = "<group>"; };
+		8712632F1F5BC58E0054ED59 /* ZPLabelLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPLabelLayer.h; sourceTree = "<group>"; };
+		871263301F5BC58E0054ED59 /* ZPLabelLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPLabelLayer.m; sourceTree = "<group>"; };
+		871263311F5BC58E0054ED59 /* ZPTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPTextLayout.h; sourceTree = "<group>"; };
+		871263321F5BC58E0054ED59 /* ZPTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTextLayout.m; sourceTree = "<group>"; };
+		871263331F5BC58E0054ED59 /* ZPTextMeasurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPTextMeasurement.h; sourceTree = "<group>"; };
+		871263341F5BC58E0054ED59 /* ZPTextMeasurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTextMeasurement.m; sourceTree = "<group>"; };
+		871263381F5BC59B0054ED59 /* ZPTextDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPTextDrawer.h; sourceTree = "<group>"; };
+		871263391F5BC59B0054ED59 /* ZPTextDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTextDrawer.m; sourceTree = "<group>"; };
+		8712633B1F5BC5A50054ED59 /* NSMutableAttributedString+ZPAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+ZPAttributedString.h"; sourceTree = "<group>"; };
+		8712633C1F5BC5A50054ED59 /* NSMutableAttributedString+ZPAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+ZPAttributedString.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		871263111F5BC3900054ED59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8712630B1F5BC3900054ED59 = {
+			isa = PBXGroup;
+			children = (
+				871263161F5BC3900054ED59 /* ZPLabel */,
+				871263151F5BC3900054ED59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		871263151F5BC3900054ED59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				871263141F5BC3900054ED59 /* libZPLabel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		871263161F5BC3900054ED59 /* ZPLabel */ = {
+			isa = PBXGroup;
+			children = (
+				871263201F5BC4DC0054ED59 /* Utility */,
+				871263171F5BC3900054ED59 /* ZPLabel.h */,
+				871263181F5BC3900054ED59 /* ZPLabel.m */,
+			);
+			path = ZPLabel;
+			sourceTree = "<group>";
+		};
+		871263201F5BC4DC0054ED59 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8712632D1F5BC5700054ED59 /* Category */,
+				8712632E1F5BC5700054ED59 /* ZPText */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8712632D1F5BC5700054ED59 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8712633B1F5BC5A50054ED59 /* NSMutableAttributedString+ZPAttributedString.h */,
+				8712633C1F5BC5A50054ED59 /* NSMutableAttributedString+ZPAttributedString.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8712632E1F5BC5700054ED59 /* ZPText */ = {
+			isa = PBXGroup;
+			children = (
+				871263381F5BC59B0054ED59 /* ZPTextDrawer.h */,
+				871263391F5BC59B0054ED59 /* ZPTextDrawer.m */,
+				8712632F1F5BC58E0054ED59 /* ZPLabelLayer.h */,
+				871263301F5BC58E0054ED59 /* ZPLabelLayer.m */,
+				871263311F5BC58E0054ED59 /* ZPTextLayout.h */,
+				871263321F5BC58E0054ED59 /* ZPTextLayout.m */,
+				871263331F5BC58E0054ED59 /* ZPTextMeasurement.h */,
+				871263341F5BC58E0054ED59 /* ZPTextMeasurement.m */,
+			);
+			path = ZPText;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		871263131F5BC3900054ED59 /* ZPLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8712631D1F5BC3900054ED59 /* Build configuration list for PBXNativeTarget "ZPLabel" */;
+			buildPhases = (
+				871263101F5BC3900054ED59 /* Sources */,
+				871263111F5BC3900054ED59 /* Frameworks */,
+				871263121F5BC3900054ED59 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPLabel;
+			productName = ZPLabel;
+			productReference = 871263141F5BC3900054ED59 /* libZPLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8712630C1F5BC3900054ED59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = gzhawk;
+				TargetAttributes = {
+					871263131F5BC3900054ED59 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8712630F1F5BC3900054ED59 /* Build configuration list for PBXProject "ZPLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8712630B1F5BC3900054ED59;
+			productRefGroup = 871263151F5BC3900054ED59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				871263131F5BC3900054ED59 /* ZPLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		871263101F5BC3900054ED59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871263351F5BC58E0054ED59 /* ZPLabelLayer.m in Sources */,
+				8712633A1F5BC59B0054ED59 /* ZPTextDrawer.m in Sources */,
+				871263361F5BC58E0054ED59 /* ZPTextLayout.m in Sources */,
+				8712633D1F5BC5A50054ED59 /* NSMutableAttributedString+ZPAttributedString.m in Sources */,
+				871263191F5BC3900054ED59 /* ZPLabel.m in Sources */,
+				871263371F5BC58E0054ED59 /* ZPTextMeasurement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8712631B1F5BC3900054ED59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8712631C1F5BC3900054ED59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8712631E1F5BC3900054ED59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8712631F1F5BC3900054ED59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8712630F1F5BC3900054ED59 /* Build configuration list for PBXProject "ZPLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8712631B1F5BC3900054ED59 /* Debug */,
+				8712631C1F5BC3900054ED59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8712631D1F5BC3900054ED59 /* Build configuration list for PBXNativeTarget "ZPLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8712631E1F5BC3900054ED59 /* Debug */,
+				8712631F1F5BC3900054ED59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8712630C1F5BC3900054ED59 /* Project object */;
+}

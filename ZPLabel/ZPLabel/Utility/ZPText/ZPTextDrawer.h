@@ -7,22 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
-typedef void (^contentBlock)(UIImage *image);
+#import <UIKit/UIKit.h>
 
-@interface ContentTextManager : NSObject
+@interface ZPTextDrawer : NSObject
 
 @property (nonatomic, strong) NSMutableArray *ranges;
 @property (nonatomic, strong) NSMutableDictionary *framesDict;
 @property (nonatomic, strong) NSMutableDictionary *relationDict;
+@property (nonatomic, strong) NSMutableArray <NSDictionary *> *attachmentContentArray;
 
-- (void)setText:(NSString *)text
+- (void)setText:(NSAttributedString *)attributedStr
         context:(CGContextRef)context
     contentSize:(CGSize)size
-backgroundColor:(UIColor *)backgroundColor
            font:(UIFont *)font
-      textColor:(UIColor *)textColor
-          block:(contentBlock)block
-        xOffset:(CGFloat)x
-        yOffset:(CGFloat)y;
+maximumNumberOfRows:(NSInteger)maximumNumberOfRows
+     renderText:(NSAttributedString *)renderText
+ truncationText:(NSAttributedString *)truncationText;
 
 @end

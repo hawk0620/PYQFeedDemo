@@ -7,6 +7,7 @@ target 'PYQFeedDemo' do
 
 pod 'SDWebImage', '~> 3.7.5'
 pod 'AFNetworking', '~> 3.1.0'
+pod 'ZPLabel', :path => 'ZPLabel'
 
 end
 
